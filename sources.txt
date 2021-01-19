@@ -1,1 +1,15 @@
+Stop an active video recording
 https://raspberrypi.stackexchange.com/questions/10151/is-there-a-way-to-stop-pause-an-actively-recording-on-raspi-camera
+
+
+Camera basics
+https://projects.raspberrypi.org/en/projects/getting-started-with-picamera
+
+Button Input
+https://projects.raspberrypi.org/en/projects/push-button-stop-motion/
+
+GPIO
+https://www.raspberrypi.org/documentation/usage/gpio/
+
+Text overlay
+https://www.meccanismocomplesso.org/en/picamera-python-how-to-add-text-on-images-and-video/
