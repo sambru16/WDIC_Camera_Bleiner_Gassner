@@ -1,0 +1,1 @@
+https://raspberrypi.stackexchange.com/questions/10151/is-there-a-way-to-stop-pause-an-actively-recording-on-raspi-camera
