@@ -5,4 +5,3 @@ Tasks:
 2. Image Capture and Video Start & Stop
 3. Add Text Overlay to Images (Date & Time)
 
-Heile
