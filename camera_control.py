@@ -10,7 +10,7 @@ camera = PiCamera()
 
 videostate = False
 
-camera.start_preview()
+camera.start_preview(alpha=220)
 
 def take_picture():
     try:
@@ -29,7 +29,7 @@ def control_video():
 
         videostate = True
         camera.start_recording('rpi_video.h264')
-        #camera.wait_recording(60)
+        camera.wait_recording(60)
     
     if videostate:
         videostate = False
