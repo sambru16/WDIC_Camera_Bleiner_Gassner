@@ -13,7 +13,12 @@ videostate = False
 camera.start_preview()
 
 def take_picture():
-    pass
+    try:
+        os.remove('')
+    except OSError:
+        pass
+
+    camera.capture('')
 
 def control_video():
     if not videostate:
