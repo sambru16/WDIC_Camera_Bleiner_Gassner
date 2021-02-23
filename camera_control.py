@@ -36,7 +36,14 @@ def control_video():
         camera.stop_recording()
 
 def picture_overlay():
-    pass
+    try:
+        os.remove('')
+    except OSError:
+        pass
+
+    camera.annotate_size = 110
+    camera.annotate_text = dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    camera.capture('')
 
 while True:
     if button1.is_pressed:
