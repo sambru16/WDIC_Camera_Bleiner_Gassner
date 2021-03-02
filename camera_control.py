@@ -14,21 +14,22 @@ camera.start_preview(alpha=220)
 
 def take_picture():
     try:
-        os.remove('')
+        os.remove('/home/pi/Documents/Camera_Project/rpi_image.jpg')
     except OSError:
         pass
 
-    camera.capture('')
+    camera.capture('/home/pi/Documents/Camera_Project/rpi_image.jpg')
 
 def control_video():
+    global videostate
     if not videostate:
         try:
-            os.remove('rpi_video.h264')
+            os.remove('/home/pi/Documents/Camera_Project/rpi_image.jpg')
         except OSError:
             pass
 
         videostate = True
-        camera.start_recording('rpi_video.h264')
+        camera.start_recording('/home/pi/Documents/Camera_Project/rpi_image.jpg')
         camera.wait_recording(60)
     
     if videostate:
@@ -37,13 +38,13 @@ def control_video():
 
 def picture_overlay():
     try:
-        os.remove('')
+        os.remove('/home/pi/Documents/Camera_Project/rpi_image.jpg')
     except OSError:
         pass
 
-    camera.annotate_size = 110
+    camera.annotate_text_size = 110
     camera.annotate_text = dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    camera.capture('')
+    camera.capture('/home/pi/Documents/Camera_Project/rpi_image.jpg')
 
 while True:
     if button1.is_pressed:
