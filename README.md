@@ -41,5 +41,7 @@ Each button has a unique functioning, which are described above.
 For further explanation you can watch our video: https://1drv.ms/v/s!AgtPPpg48bG1kH33SHQ3g94MVpdv?e=hzjZXH
 
 If any other problem occurs you can also contact us via email:
+
 samuel.brugger@student.htl-rankweil.at
+
 lukas.gassner@student.htl-rankweil.at
