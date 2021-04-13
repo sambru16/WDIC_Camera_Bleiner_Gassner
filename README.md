@@ -30,3 +30,16 @@ To execute this project, the following things are needed:
 
 The camera module and the buttons have to be connected with the Raspberry Pi. The camera module can be connected
 via the camera slot and each button has to be connected with GND and either GPIO-Pin 17, 27 or 22.
+
+The required libraries for the project should all be preinstalled on your Raspberry Pi.
+
+After these few steps, the project should be ready to use.
+
+The project itself is very easy to use: Simply execute the project and press one of the three buttons.
+Each button has a unique functioning, which are described above. 
+
+For further explanation you can watch our video: https://1drv.ms/v/s!AgtPPpg48bG1kH33SHQ3g94MVpdv?e=hzjZXH
+
+If any other problem occurs you can also contact us via email:
+samuel.brugger@student.htl-rankweil.at
+lukas.gassner@student.htl-rankweil.at
