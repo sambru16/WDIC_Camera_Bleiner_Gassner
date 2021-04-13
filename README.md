@@ -20,3 +20,13 @@ Depending on the value of videostate the video is either getting started or stop
 
 picture_overlay:
 Basically not much different from take_picture. Only big difference is that a text is added, which shows the actual date and time.
+
+How to use:
+
+To execute this project, the following things are needed:
+- Raspberry Pi
+- Raspberry Pi Camera Module
+- 3 Buttons
+
+The camera module and the buttons have to be connected with the Raspberry Pi. The camera module can be connected
+via the camera slot and each button has to be connected with GND and either GPIO-Pin 17, 27 or 22.
